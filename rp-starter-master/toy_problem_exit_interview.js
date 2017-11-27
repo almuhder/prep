@@ -38,7 +38,7 @@ CubeMyNubers({
 }); // {name:"MajdEddin", month:512}
 
 
-// 5. Write a function called squareToN that accept a number as parameter and return an array with the squared number from 1 to n. If n is smaller that 0 it will return "Vailed only for positive numbers!"
+// 6. Write a function called squareToN that accept a number as parameter and return an array with the squared number from 1 to n. If n is smaller that 0 it will return "Vailed only for positive numbers!"
 
 function squareToN(n) {
 
@@ -47,14 +47,14 @@ squareToN(5); //[1,4,9,16,25]
 squareToN(-1); // "Vailed only for positive numbers";
 
 
-// 6. Write a function called getAvgOfEven that accepts an array of number as parameter and return the average of even numbers only.
+// 7. Write a function called getAvgOfEven that accepts an array of number as parameter and return the average of even numbers only.
 function getAvgOfEven(numbers) {
 
 }
 
 getAvgOfEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // Evens 2,4,6,8,10 the return value will be (2+4+6+8+10= 30/5)= 6
 
-// 7. Write a function called replaceMeIfYouCan that accepts an array of strings as parameter and return and new array after replaceing these symbols (!,?,_,-,.) with *
+// 8. Write a function called replaceMeIfYouCan that accepts an array of strings as parameter and return and new array after replaceing these symbols (!,?,_,-,.) with *
 function replaceMeIfYouCan(strings) {
 
 }
@@ -62,7 +62,7 @@ function replaceMeIfYouCan(strings) {
 replaceMeIfYouCan(['he.is.great', '!love Javascript?']); //['he*is*great', '*love Javascript*']
 
 
-// 8. Write a function called oddPositiveEvenAbs that accepts an array of numbers and return a new array as the following:
+// 9. Write a function called oddPositiveEvenAbs that accepts an array of numbers and return a new array as the following:
 // - the odd number must be at the beginning of the array and even number at the end
 // - the new array must be without Zeros
 // - we accepts only the odd positive numbers and for the evens if it's negative convert it into positive
@@ -75,7 +75,7 @@ oddPositiveEvenAbs([-2, 0, 1, 2, 4, -6, -3, 5, 9]); //  [1, 5, 9, 2, 2, 6]
 oddPositiveEvenAbs([-12, 0, 12, 22, 0, -6, -13, 15, 49]); //  [15, 49, 12, 12, 6]
 
 
-// 9. Write a function called priceInJordan that accept a price and boolean value represent the service if it applicable or not as parameters and the calculate the value as the following the tax amount: 16% and the service amount: 10%
+// 10. Write a function called priceInJordan that accept a price and boolean value represent the service if it applicable or not as parameters and the calculate the value as the following the tax amount: 16% and the service amount: 10%
 
 function priceInJordan(price, flag) {
 
@@ -85,7 +85,7 @@ priceInJordan(5, true); // 6.3
 priceInJordan(5, false); // 5.6
 
 
-// 10. Write a function called getAvgAges that accpets three parameters ( array of numbers, young and old) as parameters and return the average ages for the people who are between the two ages (young , old) only.
+// 11. Write a function called getAvgAges that accpets three parameters ( array of numbers, young and old) as parameters and return the average ages for the people who are between the two ages (young , old) only.
 
 function getAvgAges(ages, young, old) {
 
@@ -94,7 +94,7 @@ getAvgAges([10, 16, 18, 19, 55, 24, 67, 33, 86], 18, 55); //[18,19,55,24,33]/5 =
 
 
 
-// 11. Write a function called  averageAge that accpets an array of objects and return the average ages for the people how are between 18 and 50
+// 12. Write a function called  averageAge that accpets an array of objects and return the average ages for the people how are between 18 and 50
 
 
 var people = [{
